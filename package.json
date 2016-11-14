@@ -1,0 +1,39 @@
+{
+  "name": "@riccardoscalco/regular-polygons",
+  "version": "1.0.0",
+  "description": "Vertices coordinates of regular polygons.",
+  "main": "build.js",
+  "jsnext:main": "index",
+  "keywords": [],
+  "homepage": "https://github.com/riccardoscalco/regular-polygons",
+  "repository": {
+    "url": "https://github.com/riccardoscalco/regular-polygons.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/riccardoscalco/regular-polygons/issues"
+  },
+  "author": "Riccardo Scalco <riccardoscalco@gmail.com> (http://riccardoscalco.github.io/)",
+  "contributors": [],
+  "license": "BSD-3-Clause",
+  "scripts": {
+    "build": "./node_modules/.bin/rollup --config rollup.config.js",
+    "test": "./node_modules/.bin/rollup --config rollup.config.test.js && tape 'test-build.js'"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-preset-es2015-rollup": "^1.2.0",
+    "rollup": "^0.36.3",
+    "rollup-plugin-babel": "^2.6.1",
+    "rollup-plugin-uglify": "^1.0.1",
+    "tape": "^4.6.2",
+    "xo": "^0.17.0"
+  },
+  "xo": {
+    "esnext": true,
+    "envs": [
+      "browser",
+      "node"
+    ]
+  }
+}
