@@ -20,7 +20,7 @@ tape(
 );
 
 tape(
-	'Polygons may have different raius',
+	'Polygons may have different radius',
 	test => {
 		test.equal(2 * polygon(3)(RADIUS)[0][1], polygon(3)(RADIUS * 2)[0][1]);
 		test.end();
