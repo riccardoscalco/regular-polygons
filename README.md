@@ -5,7 +5,6 @@ Vertices coordinates of regular polygons.
 ```
 npm install @riccardoscalco/regular-polygons
 ```
-Download the [latest release](https://github.com/riccardoscalco/regular-polygons/releases/latest).
 
 ## API Reference
 
